@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="icon" type="image/ico" href="#"/>
-    <title>TP HTML SIN | PRINCIPE CARTE ARDUINO</title>
+    <title>TP HTML SIN | PRINCIPE ENTREE SORTIE</title>
 </head>
 <body style="white">
 	<div align="center">
@@ -30,17 +30,23 @@
 			</li>
 		</ul>
 	<div align="left">
-	<h1 id="haut_de_page">Principe de la carte Arduino</h1>
-	<p>La carte Arduino est une carte programmable. Elle possède des entrées TOR, des entrées analogiques, des sorties TOR.<br>
-	Le logiciel de programmation est gratuit (voir lien plus bas)
-	Elle permet de réaliser facilement le pilotage d'un système. Une carte Arduino UNO coûte 20€.</p>
-	<strong>Cette solution seraz privilégiée pour réaliser nos projets</strong><br>
-	<img src="images/Arduino.jpg alt="Photo Arduino" title="Carte Ardunio UNO">
-	<br>Vidéo de présentation de la carte ARDUINO:<br>
-	<video controls src="images/Commencer facilement avec un arduino![Tuto].mp4" width="400" height="300" title="TUTO ARDUINO">TUTO de présentation ARDUINO</video><br><br>
-
-	<a href="https://www.arduino.cc/">Lien site officiel ARDUINO</a><br><br>
-	<a href="https://fr.wikipedia.org/wikiArduino">Lien Wikipédia</a><br><br>
-	<a href="#haut_de_page">Retour haut de page</a>
+	<h1 id="haut_de_page">Fiche ressource entrée/sortie</h1>
+	<h2>Une entrée reçoit une information</h2>
+	<p>1. Un bouton poussoir change d'état</p><br>
+	<p>2. Un capteur détecte la présence d'un objet (ex capteur de présence d'une personne)</p><br>
+	<p>3. Un capteur détecte qu'un volet roulant arrive en position haute</p><br>
+	<p>4. Un capteur indique la température d'un fout (entre 0°C et 230°C précison 0.1°C)</p><br>
+	<p>5. Un capteur indique la proximité d'un objet (entre 0 et 50 cm précision 1mm)</p><br>
+	<p>6. Un capteur indique le taux d'humidité (entre 0% et 100%)</p><br>
+	<p>Les 3 premiers cas donnent une information binanire en Tout ou rien (TOR). L'information est soit vraie (true) ou fausse (false) on dit aussi 0L ou 1L.</p><br>
+	<p>0L corresponxd à 0 volt 1L correspond à 5 volt</p><br>
+	<p>Les 3 derniers donnent une information analogique qui "suit" le signal</p><br>
+	<p>Le signal peut prendre toutes les valeurs entre 0V et 5V (ex 0.341V ou 4.02V)</p>
+	<img src="signaux_exemple_E.png"/>
+	<h2>Une sortie donne un ordre :</h2><br>
+	<p>1. Allumer ou étendre une LED (si la sortie et à 1L, la LED s'allume. 0L éteint la LED)</p><br>
+	<p>2. Mettre en marche un moteur (moteur de pompe = arrosage en cours)</p><br>
+	<img src="signaux_exemple_S.png"/>
+	<a href=#haut_de_page">Retoru haut de page</a>
 </body> 
 </html>
