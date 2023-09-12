@@ -102,3 +102,15 @@
 .menu li:hover .sousmenu {
    	display: block;
 }
+#acturapide
+{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+#texte
+{
+	border-left: 4px solid;
+}
