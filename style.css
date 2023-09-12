@@ -1,36 +1,30 @@
+.info-title {
+   	margin: 0;
+    	padding: 0.3rem;
+    	background-color: #eee;
+   	font: 1rem 'Fira Sans', sans-serif;
+}
+
+.info-title > h1,
 .info {
-    margin: 0;
-    padding: 0.3rem;
-    background-color: #eee;
-    font: 1rem 'Fira Sans', sans-serif;
-}
-.forecast1 {
-    margin: 0;
-    padding: 0.3rem;
-    background-color: #FFFFFF;
-    font: 1rem 'Fira Sans', sans-serif;
+    	margin: 0.5rem;
+    	padding: 0.3rem;
+    	font-size: 1.7rem;
 }
 
-.forecast > h1,
-.day-forecast {
-    margin: 0.5rem;
-    padding: 0.3rem;
-    font-size: 1.7rem;
+.info {
+    	background: right/contain content-box border-box no-repeat url('/media/examples/rain.svg') white;
 }
 
-.day-forecast {
-    background: right/contain content-box border-box no-repeat url('/media/examples/rain.svg') white;
-}
-
-.day-forecast > a {
+.info > a {
 	text-decoration: none;
 	color: blue;
-    margin: 0.2rem;
-    font-size: 1.5rem;
+    	margin: 0.2rem;
+    	font-size: 1.5rem;
 }
-.day-forecast > p {
+.info > p {
 	text-decoration: none;
 	color: black;
-    margin: 0.2rem;
-    font-size: 1.3rem;
+   	margin: 0.2rem;
+    	font-size: 1.3rem;
 }
