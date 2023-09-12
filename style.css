@@ -1,1 +1,36 @@
+.info {
+    margin: 0;
+    padding: 0.3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+.forecast1 {
+    margin: 0;
+    padding: 0.3rem;
+    background-color: #FFFFFF;
+    font: 1rem 'Fira Sans', sans-serif;
+}
 
+.forecast > h1,
+.day-forecast {
+    margin: 0.5rem;
+    padding: 0.3rem;
+    font-size: 1.7rem;
+}
+
+.day-forecast {
+    background: right/contain content-box border-box no-repeat url('/media/examples/rain.svg') white;
+}
+
+.day-forecast > a {
+	text-decoration: none;
+	color: blue;
+    margin: 0.2rem;
+    font-size: 1.5rem;
+}
+.day-forecast > p {
+	text-decoration: none;
+	color: black;
+    margin: 0.2rem;
+    font-size: 1.3rem;
+}
